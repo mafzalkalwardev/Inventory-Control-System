@@ -1,0 +1,14 @@
+build/
+out/
+.vs/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.user
+*.exe
+*.obj
+*.o
+data/inventory.dat
+*.log
+.DS_Store

@@ -1,0 +1,13 @@
+Sample product ideas for manual testing after first login:
+
+Product ID | Name              | Category    | Qty | Purchase | Selling | Supplier
+-----------|-------------------|-------------|-----|----------|---------|--------------
+1001       | Wireless Mouse    | Electronics | 25  | 12.50    | 19.99   | TechSupply Co
+1002       | USB-C Cable       | Accessories | 80  | 3.20     | 7.99    | CableWorld
+1003       | Notebook A5       | Stationery  | 120 | 1.10     | 2.50    | PaperMart
+1004       | Desk Lamp LED     | Furniture   | 15  | 18.00    | 29.99   | BrightHome
+1005       | Ballpoint Pen Box | Stationery  | 4   | 4.00     | 6.50    | PaperMart
+
+Use menu option 1 (Add Product) to enter these records.
+Search by Product ID uses the hash table (ID % 101).
+Low-stock report will flag items with quantity at or below your threshold.
